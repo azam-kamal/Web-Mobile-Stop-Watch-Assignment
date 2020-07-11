@@ -1,0 +1,43 @@
+.body{
+  background-image:cover;
+  background-color: black;
+}
+.roundedCircleContainer{
+width: 300px;
+height: 300px;
+background-color: black;
+margin: 0 auto;
+margin-top: 20px;
+border: 2px solid black;
+border-radius: 200px;
+
+}
+
+.headingStyling{
+  color:rgb(30, 32, 192);  
+}
+.headingStylingM{
+    color:rgb(30, 32, 192);
+    display: inline-block; 
+    padding-top: 50px;
+padding-left: 55px;
+}
+.ContainingBlock{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.buttonContainer{
+    display: flex;
+    justify-content: space-around;
+}
+.btnContainer{
+    border-radius: 40px;
+    height: 60px;
+    width: 60px;
+    background-color:rgb(30, 32, 192); 
+    color: black;
+    border: none;
+    outline-style: none;
+    cursor: pointer;
+}
